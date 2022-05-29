@@ -1,0 +1,6 @@
+framework module Pods_SecurePincode {
+  umbrella header "Pods-SecurePincode-umbrella.h"
+
+  export *
+  module * { export * }
+}

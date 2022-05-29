@@ -7,5 +7,7 @@ target 'SecurePincode' do
 
   # Pods for SecurePincode
   pod 'ReactorKit'
-
+  pod 'RxCocoa'
+  pod 'RxViewController'
+  pod 'SnapKit'
 end

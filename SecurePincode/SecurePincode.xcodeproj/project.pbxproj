@@ -12,6 +12,20 @@
 		09BAFEA1284342010093B26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BAFEA0284342010093B26D /* ViewController.swift */; };
 		09BAFEA6284342030093B26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BAFEA5284342030093B26D /* Assets.xcassets */; };
 		09BAFEA9284342030093B26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BAFEA7284342030093B26D /* LaunchScreen.storyboard */; };
+		09BAFEB3284343710093B26D /* KeypadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BAFEB2284343710093B26D /* KeypadService.swift */; };
+		09DA2656284343D4003E83C2 /* PinInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2655284343D4003E83C2 /* PinInput.swift */; };
+		09DA26582843440D003E83C2 /* Extensions + Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA26572843440D003E83C2 /* Extensions + Rx.swift */; };
+		09DA265B28434437003E83C2 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA265A28434437003E83C2 /* PinView.swift */; };
+		09DA265E28434605003E83C2 /* KeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA265D28434605003E83C2 /* KeypadViewController.swift */; };
+		09DA26602843461E003E83C2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA265F2843461E003E83C2 /* BaseViewController.swift */; };
+		09DA266228434651003E83C2 /* KeypadReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA266128434651003E83C2 /* KeypadReactor.swift */; };
+		09DA266528434669003E83C2 /* AuthUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA266428434669003E83C2 /* AuthUtils.swift */; };
+		09DA2667284346B1003E83C2 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2666284346B1003E83C2 /* Validation.swift */; };
+		09DA2669284346EA003E83C2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2668284346EA003E83C2 /* Strings.swift */; };
+		09DA266D2843497E003E83C2 /* PincodeAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA266C2843497E003E83C2 /* PincodeAuthViewController.swift */; };
+		09DA266F284349AB003E83C2 /* PincodeAuthReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA266E284349AB003E83C2 /* PincodeAuthReactor.swift */; };
+		09DA2671284349C9003E83C2 /* PinAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2670284349C9003E83C2 /* PinAuthService.swift */; };
+		09DA267328434A2B003E83C2 /* PinStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA267228434A2B003E83C2 /* PinStackView.swift */; };
 		414D5648BB8F7BBCFED9F4D2 /* Pods_SecurePincode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16910EDB7966320EF95DC478 /* Pods_SecurePincode.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +37,20 @@
 		09BAFEA5284342030093B26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BAFEA8284342030093B26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09BAFEAA284342030093B26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BAFEB2284343710093B26D /* KeypadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadService.swift; sourceTree = "<group>"; };
+		09DA2655284343D4003E83C2 /* PinInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinInput.swift; sourceTree = "<group>"; };
+		09DA26572843440D003E83C2 /* Extensions + Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + Rx.swift"; sourceTree = "<group>"; };
+		09DA265A28434437003E83C2 /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		09DA265D28434605003E83C2 /* KeypadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadViewController.swift; sourceTree = "<group>"; };
+		09DA265F2843461E003E83C2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		09DA266128434651003E83C2 /* KeypadReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadReactor.swift; sourceTree = "<group>"; };
+		09DA266428434669003E83C2 /* AuthUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUtils.swift; sourceTree = "<group>"; };
+		09DA2666284346B1003E83C2 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		09DA2668284346EA003E83C2 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		09DA266C2843497E003E83C2 /* PincodeAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeAuthViewController.swift; sourceTree = "<group>"; };
+		09DA266E284349AB003E83C2 /* PincodeAuthReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeAuthReactor.swift; sourceTree = "<group>"; };
+		09DA2670284349C9003E83C2 /* PinAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAuthService.swift; sourceTree = "<group>"; };
+		09DA267228434A2B003E83C2 /* PinStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinStackView.swift; sourceTree = "<group>"; };
 		16910EDB7966320EF95DC478 /* Pods_SecurePincode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecurePincode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49717CA2AE9F4B0336FD2D05 /* Pods-SecurePincode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecurePincode.debug.xcconfig"; path = "Target Support Files/Pods-SecurePincode/Pods-SecurePincode.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD01AF003654F6DB13C9B68 /* Pods-SecurePincode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecurePincode.release.xcconfig"; path = "Target Support Files/Pods-SecurePincode/Pods-SecurePincode.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,14 +89,92 @@
 		09BAFE9B284342010093B26D /* SecurePincode */ = {
 			isa = PBXGroup;
 			children = (
+				09DA266328434663003E83C2 /* Utils */,
+				09DA265928434431003E83C2 /* View */,
+				09DA2654284343CC003E83C2 /* Model */,
+				09BAFEB1284343560093B26D /* Scene */,
+				09BAFEB0284343510093B26D /* Service */,
 				09BAFE9C284342010093B26D /* AppDelegate.swift */,
 				09BAFE9E284342010093B26D /* SceneDelegate.swift */,
 				09BAFEA0284342010093B26D /* ViewController.swift */,
+				09DA26572843440D003E83C2 /* Extensions + Rx.swift */,
+				09DA265F2843461E003E83C2 /* BaseViewController.swift */,
+				09DA2668284346EA003E83C2 /* Strings.swift */,
 				09BAFEA5284342030093B26D /* Assets.xcassets */,
 				09BAFEA7284342030093B26D /* LaunchScreen.storyboard */,
 				09BAFEAA284342030093B26D /* Info.plist */,
 			);
 			path = SecurePincode;
+			sourceTree = "<group>";
+		};
+		09BAFEB0284343510093B26D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				09BAFEB2284343710093B26D /* KeypadService.swift */,
+				09DA2670284349C9003E83C2 /* PinAuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		09BAFEB1284343560093B26D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				09DA266B2843496F003E83C2 /* PincodeUpdate */,
+				09DA266A28434965003E83C2 /* PincodeAuth */,
+				09DA265C284345FE003E83C2 /* Keypad */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		09DA2654284343CC003E83C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09DA2655284343D4003E83C2 /* PinInput.swift */,
+				09DA2666284346B1003E83C2 /* Validation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09DA265928434431003E83C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09DA265A28434437003E83C2 /* PinView.swift */,
+				09DA267228434A2B003E83C2 /* PinStackView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09DA265C284345FE003E83C2 /* Keypad */ = {
+			isa = PBXGroup;
+			children = (
+				09DA265D28434605003E83C2 /* KeypadViewController.swift */,
+				09DA266128434651003E83C2 /* KeypadReactor.swift */,
+			);
+			path = Keypad;
+			sourceTree = "<group>";
+		};
+		09DA266328434663003E83C2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				09DA266428434669003E83C2 /* AuthUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		09DA266A28434965003E83C2 /* PincodeAuth */ = {
+			isa = PBXGroup;
+			children = (
+				09DA266C2843497E003E83C2 /* PincodeAuthViewController.swift */,
+				09DA266E284349AB003E83C2 /* PincodeAuthReactor.swift */,
+			);
+			path = PincodeAuth;
+			sourceTree = "<group>";
+		};
+		09DA266B2843496F003E83C2 /* PincodeUpdate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PincodeUpdate;
 			sourceTree = "<group>";
 		};
 		34A27D14CF84D3BFA710C7F6 /* Frameworks */ = {
@@ -85,7 +191,6 @@
 				49717CA2AE9F4B0336FD2D05 /* Pods-SecurePincode.debug.xcconfig */,
 				5FD01AF003654F6DB13C9B68 /* Pods-SecurePincode.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,8 +309,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BAFEA1284342010093B26D /* ViewController.swift in Sources */,
+				09DA26582843440D003E83C2 /* Extensions + Rx.swift in Sources */,
+				09DA267328434A2B003E83C2 /* PinStackView.swift in Sources */,
+				09DA265E28434605003E83C2 /* KeypadViewController.swift in Sources */,
+				09DA266528434669003E83C2 /* AuthUtils.swift in Sources */,
+				09DA265B28434437003E83C2 /* PinView.swift in Sources */,
+				09BAFEB3284343710093B26D /* KeypadService.swift in Sources */,
+				09DA26602843461E003E83C2 /* BaseViewController.swift in Sources */,
+				09DA266D2843497E003E83C2 /* PincodeAuthViewController.swift in Sources */,
+				09DA2669284346EA003E83C2 /* Strings.swift in Sources */,
+				09DA2671284349C9003E83C2 /* PinAuthService.swift in Sources */,
+				09DA266228434651003E83C2 /* KeypadReactor.swift in Sources */,
 				09BAFE9D284342010093B26D /* AppDelegate.swift in Sources */,
 				09BAFE9F284342010093B26D /* SceneDelegate.swift in Sources */,
+				09DA266F284349AB003E83C2 /* PincodeAuthReactor.swift in Sources */,
+				09DA2667284346B1003E83C2 /* Validation.swift in Sources */,
+				09DA2656284343D4003E83C2 /* PinInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

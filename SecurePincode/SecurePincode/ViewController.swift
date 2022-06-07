@@ -52,6 +52,18 @@ class ViewController: UIViewController {
             }
             .disposed(by: disposeBag)
         
+        btnoOpenPincodeUpdateView.rx
+            .controlEvent(.touchUpInside)
+            .bind { [weak self] in
+                guard let self = self else { return }
+                let pincodeUpdateViewController = PincodeUpdateViewController()
+                pincodeUpdateViewController.reactor = PincodeUpdateReactor(
+                    keypadService: KeypadService(maxCount: 6),
+                    userService: UserService())
+                self.navigationController?.pushViewController(pincodeUpdateViewController, animated: true)
+            }
+            .disposed(by: disposeBag)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

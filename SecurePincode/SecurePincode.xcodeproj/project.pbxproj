@@ -26,6 +26,9 @@
 		09DA266F284349AB003E83C2 /* PincodeAuthReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA266E284349AB003E83C2 /* PincodeAuthReactor.swift */; };
 		09DA2671284349C9003E83C2 /* PinAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2670284349C9003E83C2 /* PinAuthService.swift */; };
 		09DA267328434A2B003E83C2 /* PinStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA267228434A2B003E83C2 /* PinStackView.swift */; };
+		09DA26752843559D003E83C2 /* PincodeUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA26742843559D003E83C2 /* PincodeUpdateViewController.swift */; };
+		09DA2677284355A4003E83C2 /* PincodeUpdateViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA2676284355A4003E83C2 /* PincodeUpdateViewReactor.swift */; };
+		09DA267928435619003E83C2 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA267828435619003E83C2 /* UserService.swift */; };
 		414D5648BB8F7BBCFED9F4D2 /* Pods_SecurePincode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16910EDB7966320EF95DC478 /* Pods_SecurePincode.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +54,9 @@
 		09DA266E284349AB003E83C2 /* PincodeAuthReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeAuthReactor.swift; sourceTree = "<group>"; };
 		09DA2670284349C9003E83C2 /* PinAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAuthService.swift; sourceTree = "<group>"; };
 		09DA267228434A2B003E83C2 /* PinStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinStackView.swift; sourceTree = "<group>"; };
+		09DA26742843559D003E83C2 /* PincodeUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeUpdateViewController.swift; sourceTree = "<group>"; };
+		09DA2676284355A4003E83C2 /* PincodeUpdateViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeUpdateViewReactor.swift; sourceTree = "<group>"; };
+		09DA267828435619003E83C2 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		16910EDB7966320EF95DC478 /* Pods_SecurePincode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecurePincode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49717CA2AE9F4B0336FD2D05 /* Pods-SecurePincode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecurePincode.debug.xcconfig"; path = "Target Support Files/Pods-SecurePincode/Pods-SecurePincode.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD01AF003654F6DB13C9B68 /* Pods-SecurePincode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecurePincode.release.xcconfig"; path = "Target Support Files/Pods-SecurePincode/Pods-SecurePincode.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 			children = (
 				09BAFEB2284343710093B26D /* KeypadService.swift */,
 				09DA2670284349C9003E83C2 /* PinAuthService.swift */,
+				09DA267828435619003E83C2 /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -173,6 +180,8 @@
 		09DA266B2843496F003E83C2 /* PincodeUpdate */ = {
 			isa = PBXGroup;
 			children = (
+				09DA26742843559D003E83C2 /* PincodeUpdateViewController.swift */,
+				09DA2676284355A4003E83C2 /* PincodeUpdateViewReactor.swift */,
 			);
 			path = PincodeUpdate;
 			sourceTree = "<group>";
@@ -308,8 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DA26752843559D003E83C2 /* PincodeUpdateViewController.swift in Sources */,
 				09BAFEA1284342010093B26D /* ViewController.swift in Sources */,
 				09DA26582843440D003E83C2 /* Extensions + Rx.swift in Sources */,
+				09DA2677284355A4003E83C2 /* PincodeUpdateViewReactor.swift in Sources */,
 				09DA267328434A2B003E83C2 /* PinStackView.swift in Sources */,
 				09DA265E28434605003E83C2 /* KeypadViewController.swift in Sources */,
 				09DA266528434669003E83C2 /* AuthUtils.swift in Sources */,
@@ -322,6 +333,7 @@
 				09DA266228434651003E83C2 /* KeypadReactor.swift in Sources */,
 				09BAFE9D284342010093B26D /* AppDelegate.swift in Sources */,
 				09BAFE9F284342010093B26D /* SceneDelegate.swift in Sources */,
+				09DA267928435619003E83C2 /* UserService.swift in Sources */,
 				09DA266F284349AB003E83C2 /* PincodeAuthReactor.swift in Sources */,
 				09DA2667284346B1003E83C2 /* Validation.swift in Sources */,
 				09DA2656284343D4003E83C2 /* PinInput.swift in Sources */,
